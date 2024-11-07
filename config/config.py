@@ -86,7 +86,7 @@ PRIVACY_LINK = getenv(
 
 
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-f3e1e0c4-57f2-40db-98bd-2f27da16e24c")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -102,7 +102,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    "",
+    "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",
 )
 
 
