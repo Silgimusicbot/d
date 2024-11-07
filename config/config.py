@@ -18,17 +18,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "21236884"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH", "2e526fe32b1177ba7ce3d552640ab854")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7810085496:AAFcHLoBvT1B519jNsubPfmodvXqjVlvnzA")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://abbaslinatiq58:natiq.3169@cluster0.2w9vfhx.mongodb.net/?retryWrites=true&w=majorit")
 
 CLEANMODE_DELETE_MINS = int(
     getenv("CLEANMODE_MINS", "5")
@@ -69,12 +69,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002057111740"))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6815918609").split())
+    map(int, getenv("OWNER_ID", "7287936548").split())
 )  # Input type must be interger
 
 
@@ -176,7 +176,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING_SESSIONS = list(map(str.strip, getenv("STRING_SESSIONS", None).split(",")))
+STRING_SESSIONS = list(map(str.strip, getenv("STRING_SESSIONS", "AgFEDJQAYOeMSAh-ctU7lBmMdf5o8meE6OdwkipF_s5wUREDY-f3Gm5aVue9clILQUG3ckxF4rgG6hja26nQX-S-4-bKoQTcfSAspRxsJ5M8gZg1XhHouQUjfCnZ79ozGTJ-Rt8mIzv4sPehxS_pU4ARSB50gI4sJ562sIaxU8tnPMoilMzPCXyqVUEt07qSEzc99ay_qhyEnByQqW_sGIjEvRclx1ekefyjon0ol-Uuh_UGM1oTMHuupu41ghL_t3wxIPePW2wu4MX2vfTDS2yFjMTKeyp7dD1ntDX-J6PRDDZZTQGqJDt6FaWbQ_4RIcrI9B6_5T3IRa9zpXou-tHx_ua4ewAAAAGd3P3lAA").split(",")))
 
 
 #  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____
