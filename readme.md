@@ -10,7 +10,7 @@ If you’re using or forking this project, please ⭐ star the original repo: [p
 
 Deploy **Yukki Music Bot** on Heroku easily:
 
-<a href="https://dashboard.heroku.com/new?template=https://github.com/xGuliyev/Famil_music_bot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200"/></a>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/Abbasov04/IconMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200"/></a>
 
 ---
 ## 🖇️ VPS Deployment Guide
