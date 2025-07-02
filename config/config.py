@@ -18,13 +18,13 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "21236884"))
+API_ID = int(getenv("API_ID", "27250435"))
 
-API_HASH = getenv("API_HASH", "2e526fe32b1177ba7ce3d552640ab854")
+API_HASH = getenv("API_HASH", "5f1b167cd671b9d05fec51c89eac17da")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7810085496:AAFcHLoBvT1B519jNsubPfmodvXqjVlvnzA")
+BOT_TOKEN = getenv("BOT_TOKEN", "7682362793:AAHHwKx9sJOvpJMELPHwZvTQvwcONcyh7IQ")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
@@ -69,12 +69,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002057111740"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002840261862"))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7287936548").split())
+    map(int, getenv("OWNER_ID", "6191141179").split())
 )  # Input type must be interger
 
 
@@ -86,32 +86,32 @@ PRIVACY_LINK = getenv(
 
 
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-f3e1e0c4-57f2-40db-98bd-2f27da16e24c")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-AA6B3oZpgpXgt91Z8inkUIMM6tFeiDSy6zM2VX_jHnBQ_____w1rEtAW8iFv")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "rythmmusic")
 
 
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Abbasov04/IconMusic",
+    "https://github.com/Silgimusicbot/d",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    "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",
+    "",
 )
 
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/TheTeamVivek"
+    "SUPPORT_CHANNEL", "https://t.me/rythmmusicchat"
 )  # Example:- https://t.me/TheTeamVivek
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TheTeamVk"
+    "SUPPORT_GROUP", "https://t.me/rythmmusicchat"
 )  # Example:- https://t.me/TheTeamVk
 
 
@@ -176,7 +176,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING_SESSIONS = list(map(str.strip, getenv("STRING_SESSIONS", "AgFEDJQAYOeMSAh-ctU7lBmMdf5o8meE6OdwkipF_s5wUREDY-f3Gm5aVue9clILQUG3ckxF4rgG6hja26nQX-S-4-bKoQTcfSAspRxsJ5M8gZg1XhHouQUjfCnZ79ozGTJ-Rt8mIzv4sPehxS_pU4ARSB50gI4sJ562sIaxU8tnPMoilMzPCXyqVUEt07qSEzc99ay_qhyEnByQqW_sGIjEvRclx1ekefyjon0ol-Uuh_UGM1oTMHuupu41ghL_t3wxIPePW2wu4MX2vfTDS2yFjMTKeyp7dD1ntDX-J6PRDDZZTQGqJDt6FaWbQ_4RIcrI9B6_5T3IRa9zpXou-tHx_ua4ewAAAAGd3P3lAA").split(",")))
+STRING_SESSIONS = list(map(str.strip, getenv("STRING_SESSIONS", "AgGfzwMAhpItTGxJ9Yvbvvt6y7eWWHubHkiKechRg_DkEEs2EDCfc57RBHQYnyxneMntBjolgfrGaWbdmJ9w8FDBcD9GUNi-HaMnz6XJ-hfiGYI3Tvfa2g78XXTpjBGVIWFNlc0Y2WHbNvF-8FuDZvXT9IDSFpMF7aD63rodcOM-XTI0MAjLGDC5umY87mHDE7zWIDtMGBd0_dyfITCilBHkOa4fyrfd8OIpuZhwGtV8NTSTYQXswgHp8T6xJ_8q9r2yIojk209gneUC3FCslQlCHouEATwkZN27uBxhz3-bzvWiJUuEmeKyHWFIe-6aoxiRirVORl9p3TZjN4cicHXlhDtuIAAAAAGrMHlaAA").split(",")))
 
 
 #  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____
@@ -206,12 +206,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg",  # This is the file id of the photo you can also put the url of photo
+    "https://files.catbox.moe/crc5ei.jpeg",  # This is the file id of the photo you can also put the url of photo
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg",
+    "https://files.catbox.moe/crc5ei.jpeg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -221,12 +221,12 @@ PLAYLIST_IMG_URL = getenv(
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://telegra.ph/file/de1db74efac1770b1e8e9.jpg",
+    "https://files.catbox.moe/crc5ei.jpeg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://telegra.ph/file/4dd9e2c231eaf7c290404.jpg",
+    "https://files.catbox.moe/crc5ei.jpeg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
@@ -236,7 +236,7 @@ TELEGRAM_AUDIO_URL = getenv(
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://telegra.ph/file/8d02ff3bde400e465219a.jpg",
+    "https://files.catbox.moe/crc5ei.jpeg",
 )
 
 STREAM_IMG_URL = getenv(
@@ -266,7 +266,7 @@ SPOTIFY_ALBUM_IMG_URL = getenv(
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://telegra.ph/file/f4edfbd83ec3150284aae.jpg",
+    "https://files.catbox.moe/crc5ei.jpeg",
 )
 
 
